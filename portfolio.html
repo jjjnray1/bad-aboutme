@@ -1,0 +1,106 @@
+
+
+<!-- this links all the files together -->
+<head> 
+    
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"> </script>
+
+</head>
+
+
+<!-- Breaks down the page into grid-->
+<body class="Body1">
+    
+    <header class="welcome">Welcome To My Portfolio</header>
+    <h1>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="contactme.html">Contact Me!</a>
+            <input type="text" placeholder="Search...">
+        </div>
+    </h1>
+</header>
+    <div class="gridContainer">
+
+
+        
+        <aside class="Left">  
+            <h3 class="Contact">
+                Quick Bio!
+            </h3>
+            <p class="p1">
+                Hello everyone, my name is Jeremiah Turner and welcome to my Portfolio.  Three Quick facts about me, Im a big fan of standup comedy, I enjoy playing tennis and I'm a very competetive person. Use the contact me button to show all the ways you can reach out.
+            </p>
+            <div id="JScontain">
+                <div id="myAnimation">  
+                    <img id="profilepic" src="profile.jpg" width="300px" height="300px" onclick="Run(Run);">    
+                </div>
+            </div>
+           
+        </aside>
+            <!-- basic import of video -->
+        <article class="Mid">About me 
+            <div>
+                
+                <iframe class="VideoPlayer" width="640" height="500"
+                src="https://www.youtube.com/embed/if3M1VLhg3k?controls=1">
+                </iframe>
+            </div>
+            <f1> 
+                <h5>
+
+                </h5>
+            </f1>
+        </article>
+        
+        <!-- this defines the right collumn of the page -->
+        <aside class="Right">
+            <h4>Check out some projects ive worked on</h4>
+            <br>
+            <br>
+            
+                    <!-- Button Ids -->
+                <div class="btncontainer">
+                    <div class="vert-center">
+                        <button class="button1" onclick="location.href='https://github.com/jjjnray1/Eye-excersise'" type="button">
+                        Mouse Tracking Eyes</button>
+                        <p class="p3">This page has a set of eyes that will track the mouse cursor around!</p>
+                  
+                    </div>
+                </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                <div class="btncontainer2">
+                    <div class="vertcenter2">
+                        <button class="button2" onclick="location.href='https://github.com/jjjnray1/PacMan-Exercise'" type="button">
+                         Moving PacMan</button>
+                         <p class="p2"> Using JS and 4 pictures of pacman, this is an animation of him bouncing off the edges of the screen.
+
+                         </p>
+                    </div>
+                </div>         
+            <br>
+            <br>
+            <br>
+            <br>
+            
+                <div class="btncontainer3">
+                    <div class="vertcenter3">
+                        <button class="button3" onclick="location.href='https://github.com/jjjnray1/Real-Time-Bus-Tracker'" type="button"> Real Time Bus Tracker </button>
+                        <p class="p2">
+                            This follows a bus along its schedule from MIT to Harvard.
+                        </p>
+
+                    </div>
+                </div> 
+                   
+    </aside>
+        <footer class="Bottom">
+            <h2>Thank you for visiting my page, please feel free to reach out and let me know what I can do better! </h2>
+        </footer>
+    </div>  
+</body>
